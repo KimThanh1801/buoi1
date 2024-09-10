@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    border: 3px solid red;
+    background: #ccc;
+    width: 50%;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+}
+.item{
+    display: grid;
+    grid-template-columns: 10% 87%;
+    column-gap: 2%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+ input, #year{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+label{
+    box-sizing: border-box;
+    padding: 10px;
+}
+#year{
+    width: 100px;
+    color: red;
+}
+.item-button{
+    text-align: center;
+}
+button{
+    margin-right: 30px;
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+} 
+button:active{
+    background-color: green;
+    color: #fff;
+}

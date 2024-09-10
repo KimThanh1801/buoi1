@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cssofbuoi1.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>BANG DIEM CUA EM</h3>
+        <div class="item">
+            <label for="se1">Semester1:</label>
+            <input type="number" name="" id="se1" >
+        </div>
+        <div class="item">
+            <label for="se2">Semester2:</label>
+            <input type="number" name="" id="se2" >
+        </div>
+        <div class="item">
+                <label for="">Year: </label>
+                <select  id="year">
+                    <option value="">Years</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+        </div>
+        <div class="item">
+            <label for="result">Sum:</label>
+            <input type="text" name="result" id="result" readonly>
+        </div>
+        <div class="item-button">
+            <button onclick="myFunction1()">Ok</button>
+            <button type="reset" onclick="myFunction2()">Cancel</button>
+        </div>
+        <div class="display" id="display"></div>
+    </div>
+    <script src="./function.js">
+    </script>
+</body>
+
+</html>
